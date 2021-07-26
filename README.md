@@ -1,34 +1,45 @@
-python绘图工具汇总
+# python绘图工具汇总
 
-（1）matplotlib
+###  1、matplotlib
 
-官方网站:https://matplotlib.org/
+**官方网站：https://matplotlib.org/**
 
-matplotlib是一个python的2D绘图库，它以各种硬拷贝格式和跨平台的交互式环境生成出版质量级别的图形，通过matplotlib，可以绘制折线图，散点图，柱形图，饼图，直方图，子图等等， matplot使用numpy进行数组运算，并调用一系列其他的python库来实现硬件交互
+**安装方式：**
+```
+pip install matplotlib
+```
 
-pylab是matplotlib面向对象绘图库的一个接口，语法和matlab十分相似，可以使用matlab对应的命令
+**简介：**
+matplotlib是一个python的2D绘图库，它以各种硬拷贝格式和跨平台的交互式环境生成出版质量级别的图形，通过matplotlib，可以绘制折线图，散点图，柱形图，饼图，直方图，子图等等， matplot使用numpy进行数组运算，并调用一系列其他的python库来实现硬件交互，pylab是matplotlib面向对象绘图库的一个接口，语法和matlab十分相似，可以使用matlab对应的命令
 
-绘图简介
+**绘图简介：**
 
-使用matplotlib库绘制图形，大致需要以下5个步骤 （1）创建一个图纸（figure） （2）在图纸上创建一个或者多个绘图(plotting)区域 （3）在plotting区域上描绘点，线等 （4）在plotting添加修饰标签 （5）添加其他diy进行修饰
+使用matplotlib库绘制图形，大致需要以下5个步骤 
+- 创建一个图纸（figure） 
+- 在图纸上创建一个或者多个绘图(plotting)区域 
+- 在plotting区域上描绘点，线等
+- 在plotting添加修饰标签 
+- 添加其他diy进行修饰
 
-方法	含义
-matplotlib.pyplot.angle_spectrum	绘制电子波谱图
-matplotlib.pyplot.bar	绘制柱状图
-matplotlib.pyplot.barh	绘制直方图
-matplotlib.pyplot.broken_barh	绘制水平直方图
-matplotlib.pyplot.contour	绘制等高线图
-matplotlib.pyplot.errorbar	绘制误差线
-matplotlib.pyplot.hexbin	绘制六边形图案
-matplotlib.pyplot.hist	绘制柱形图
-matplotlib.pyplot.hist2d	绘制水平柱形图
-matplotlib.pyplot.imshow	图像绘图
-matplotlib.pyplot.pie	绘制饼形图
-matplotlib.pyplot.quiver	绘制量场图
-matplotlib.pyplot.scatter	绘制散点图
-matplotlib.pyplot.specgram	绘制光谱图
-matplotlib.pyplot.subplot	绘制子图
-（2）plotly
+**主要绘制图形**
+1. matplotlib.pyplot.angle_spectrum	绘制电子波谱图
+2. matplotlib.pyplot.bar	绘制柱状图
+3. matplotlib.pyplot.barh	绘制直方图
+4. matplotlib.pyplot.broken_barh	绘制水平直方图
+5. matplotlib.pyplot.contour	绘制等高线图
+6. matplotlib.pyplot.errorbar	绘制误差线
+7. matplotlib.pyplot.hexbin	绘制六边形图案
+8. matplotlib.pyplot.hist	绘制柱形图
+9. matplotlib.pyplot.hist2d	绘制水平柱形图
+10. matplotlib.pyplot.imshow	图像绘图
+11. matplotlib.pyplot.pie	绘制饼形图
+12. matplotlib.pyplot.quiver	绘制量场图
+13. matplotlib.pyplot.scatter	绘制散点图
+14. matplotlib.pyplot.specgram	绘制光谱图
+15. matplotlib.pyplot.subplot	绘制子图
+
+
+### 2、plotly
 
 官方网站：
 
